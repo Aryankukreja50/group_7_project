@@ -21,7 +21,7 @@ from tensorflow.keras.layers import Input, Dense
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 
 # Define constants for data and model storage
-DATA_PATH = "CICIDS2018_sample.csv"  # Path to the dataset
+DATA_PATH = "CICIDS2018.csv"  # Path to the dataset
 MODEL_DIR = "models"                  # Directory to save models
 os.makedirs(MODEL_DIR, exist_ok=True)  # Create model directory if it doesn't exist
 
